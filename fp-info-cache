@@ -1,4 +1,4 @@
-26785004722195114
+26777969429208015
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74731,6 +74731,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PPPC_12
+CONN_PPPC062LJBN-RC_SUL
+
+PPPC062LJBN-RC 
+0
+12
+12
 PPTC_8
 SULLINS_PPTC042LFBN-RC
 
@@ -99420,20 +99427,6 @@ SOT95P280X145-6N
 0
 6
 6
-TPD4E004DRYR
-PSON50P145X100X60-6N
-
-
-0
-6
-6
-TPD6E004RSER
-IC_TPD6E004RSER
-
-
-0
-8
-8
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
@@ -106420,34 +106413,13 @@ Varistor VF
 0
 2
 2
-footprints
-TVS_SOD2_DYF_TEX
-
-TSD05CDYFR 
+mjtp1117
+MJTP1117
+MJTP1117-5
+Switch
 0
-2
-2
-footprints
-TVS_SOD2_DYF_TEX-L
-
-TSD05CDYFR 
-0
-2
-2
-footprints
-TVS_SOD2_DYF_TEX-M
-
-TSD05CDYFR 
-0
-2
-2
-sfv24r
-AMPHENOL_SFV24R-2STE1HLF
-
-
-0
-26
-26
+4
+4
 srn3010C-100m
 IND_SRN3010C-100M
 
