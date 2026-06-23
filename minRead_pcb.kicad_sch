@@ -10465,7 +10465,7 @@
 	)
 	(text "LDO 3.3V"
 		(exclude_from_sim no)
-		(at 162.56 25.146 0)
+		(at 172.212 25.654 0)
 		(effects
 			(font
 				(size 3.81 3.81)
