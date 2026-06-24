@@ -2011,6 +2011,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -10792,6 +10941,12 @@
 		(uuid "5c9e87f6-3461-4679-91df-ace4cc55993a")
 	)
 	(junction
+		(at 67.31 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dd2e317-b8c7-4db1-804a-9da57bea613f")
+	)
+	(junction
 		(at 52.07 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10984,6 +11139,12 @@
 		(uuid "ca307899-221b-4795-bf5c-b167d349ac23")
 	)
 	(junction
+		(at 48.26 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca6cb0de-31f6-4914-82be-26fce9ae5f9b")
+	)
+	(junction
 		(at 420.37 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11054,12 +11215,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebe8a4d0-b246-43aa-8d0f-014922045c31")
-	)
-	(junction
-		(at 62.23 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed1d1815-41e5-4bfe-8bb7-a806b6e5b32a")
 	)
 	(junction
 		(at 431.8 63.5)
@@ -11338,16 +11493,6 @@
 			(type default)
 		)
 		(uuid "0f4d4ad3-470a-4fa4-970d-0bba98509c5e")
-	)
-	(wire
-		(pts
-			(xy 52.07 30.48) (xy 48.26 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f6de27c-9872-4309-9eb4-69a65f5f5490")
 	)
 	(wire
 		(pts
@@ -11701,6 +11846,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 30.48) (xy 48.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e8f2e4-ea00-4fc0-aa0e-44a2c0d5d719")
+	)
+	(wire
+		(pts
 			(xy 50.8 156.21) (xy 55.88 156.21)
 		)
 		(stroke
@@ -12031,6 +12186,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 30.48) (xy 58.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438b37fb-70b3-47c2-a442-b6c55e23374e")
+	)
+	(wire
+		(pts
 			(xy 373.38 182.88) (xy 373.38 186.69)
 		)
 		(stroke
@@ -12261,7 +12426,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 30.48) (xy 62.23 30.48)
+			(xy 66.04 30.48) (xy 67.31 30.48)
 		)
 		(stroke
 			(width 0)
@@ -13561,6 +13726,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 25.4) (xy 67.31 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fc5818-8326-40d9-951b-1e4b6f96bae5")
+	)
+	(wire
+		(pts
 			(xy 52.07 279.4) (xy 58.42 279.4)
 		)
 		(stroke
@@ -13608,6 +13783,16 @@
 			(type default)
 		)
 		(uuid "bb91ea67-4da8-4851-8c76-981ae80b7336")
+	)
+	(wire
+		(pts
+			(xy 67.31 30.48) (xy 68.58 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf6d73f-2bef-4e6a-9ad0-ae96919b3136")
 	)
 	(wire
 		(pts
@@ -13798,16 +13983,6 @@
 			(type default)
 		)
 		(uuid "c8ce8063-3647-4fd8-842c-d1741e6900ee")
-	)
-	(wire
-		(pts
-			(xy 62.23 30.48) (xy 68.58 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca07f8d4-efa1-46d7-a12e-8263316ae1f2")
 	)
 	(wire
 		(pts
@@ -14371,6 +14546,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 24.13) (xy 48.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ddccb0-1b7a-4a4a-a564-e9f890637908")
+	)
+	(wire
+		(pts
 			(xy 66.04 284.48) (xy 66.04 288.29)
 		)
 		(stroke
@@ -14450,12 +14635,12 @@
 		(uuid "68e00a45-adbc-4e94-8787-ca98215b97ad")
 	)
 	(label "VBUS_PRE"
-		(at 49.53 30.48 90)
+		(at 48.26 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6e129d06-9e3a-4ce4-8810-735638fc33c2")
 	)
@@ -18306,7 +18491,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR0540"
+		(property "Value" "B5819W"
 			(at 325.4375 270.51 0)
 			(effects
 				(font
@@ -22104,7 +22289,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 62.23 30.48 0)
+		(at 67.31 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22113,7 +22298,7 @@
 		(fields_autoplaced yes)
 		(uuid "50ca6869-172d-4804-b1b9-45e38a8ac913")
 		(property "Reference" "#FLG01"
-			(at 62.23 28.575 0)
+			(at 67.31 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22122,7 +22307,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 62.23 25.4 0)
+			(at 67.31 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22130,7 +22315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 30.48 0)
+			(at 67.31 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22139,7 +22324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 30.48 0)
+			(at 67.31 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22148,7 +22333,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 62.23 30.48 0)
+			(at 67.31 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23238,24 +23423,23 @@
 	)
 	(symbol
 		(lib_id "Diode:MBR0530")
-		(at 55.88 30.48 180)
+		(at 62.23 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "702dacbe-804f-473d-a417-9edafad76c0d")
 		(property "Reference" "D1"
-			(at 56.1975 24.13 0)
+			(at 62.738 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MBR0530"
-			(at 56.1975 26.67 0)
+		(property "Value" "B5819W"
+			(at 63.246 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23263,7 +23447,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 55.88 26.035 0)
+			(at 62.23 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23272,7 +23456,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-			(at 55.88 30.48 0)
+			(at 62.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23281,7 +23465,7 @@
 			)
 		)
 		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 55.88 30.48 0)
+			(at 62.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23393,7 +23577,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MBR0530"
+		(property "Value" "B5819W"
 			(at 68.58 306.3874 90)
 			(effects
 				(font
@@ -24640,7 +24824,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MBR0530"
+		(property "Value" "B5819W"
 			(at 52.07 305.7524 90)
 			(effects
 				(font
@@ -28187,7 +28371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 125.73 62.2299 0)
 			(effects
 				(font
@@ -29219,7 +29403,7 @@
 				)
 			)
 		)
-		(property "Value" "MBR0530"
+		(property "Value" "B5819W"
 			(at 131.1275 49.53 0)
 			(effects
 				(font
@@ -29747,6 +29931,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 53.34 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2004068-e8c2-4598-ba15-5b0bd45225c2")
+		(property "Reference" "F1"
+			(at 53.34 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805L100WR"
+			(at 53.34 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 58.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 53.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa651f9d-542b-4174-bc6f-0df82fc2ea44")
+		)
+		(pin "2"
+			(uuid "8aff07e1-082b-4793-8d08-28b9f096966f")
+		)
+		(instances
+			(project ""
+				(path "/2fbd4c8f-b784-4d80-b374-4947df99a9bf"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TSD05CDYFR:TSD05CDYFR")
 		(at 36.83 124.46 0)
 		(unit 1)
@@ -30104,7 +30357,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MBR0530"
+		(property "Value" "B5819W"
 			(at 38.1 305.1174 90)
 			(effects
 				(font
