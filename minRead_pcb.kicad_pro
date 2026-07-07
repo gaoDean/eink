@@ -689,7 +689,7 @@
       "plot": "gerbers/",
       "pos_files": "placement/",
       "specctra_dsn": "",
-      "step": "minRead_pcb.step",
+      "step": "delink_pcb_0705.step",
       "svg": "",
       "vrml": ""
     },
