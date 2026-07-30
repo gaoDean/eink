@@ -4,3 +4,7 @@ minRead_pcb-backups
 
 # LTspice raw simulation output (can be huge)
 *.raw
+
+# Per-user project state and regenerated caches (KiCad recommends not committing these)
+*.kicad_prl
+fp-info-cache

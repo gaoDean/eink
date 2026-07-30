@@ -7732,7 +7732,7 @@
 			(uuid "5a30cb77-d240-4ffc-bd28-541e0f7a96b2")
 		)
 		(embedded_fonts no)
-		(model "MJTP1117.stp"
+		(model "${KIPRJMOD}/KiCad/9.0/3rdparty/Mjtp1117/MJTP1117.stp"
 			(offset
 				(xyz 2.499999962 -2.269999947 2.599999866)
 			)
@@ -8690,7 +8690,7 @@
 			(uuid "c019af9b-628c-4f50-8d8f-b68b321e5a8f")
 		)
 		(embedded_fonts no)
-		(model "MJTP1117.stp"
+		(model "${KIPRJMOD}/KiCad/9.0/3rdparty/Mjtp1117/MJTP1117.stp"
 			(offset
 				(xyz 2.499999962 -2.269999947 2.599999866)
 			)
@@ -9925,7 +9925,7 @@
 			(uuid "9c8ea3d5-e66f-493e-9bbc-7c9e03c76ed8")
 		)
 		(embedded_fonts no)
-		(model "MJTP1117.stp"
+		(model "${KIPRJMOD}/KiCad/9.0/3rdparty/Mjtp1117/MJTP1117.stp"
 			(offset
 				(xyz 2.499999962 -2.269999947 2.599999866)
 			)
@@ -11209,7 +11209,7 @@
 			(uuid "e245664d-1874-4dad-b1a3-147e1982ee56")
 		)
 		(embedded_fonts no)
-		(model "MJTP1117.stp"
+		(model "${KIPRJMOD}/KiCad/9.0/3rdparty/Mjtp1117/MJTP1117.stp"
 			(offset
 				(xyz 2.499999962 -2.269999947 2.599999866)
 			)
@@ -13363,7 +13363,7 @@
 			(uuid "fb0a95bb-0400-48ee-8ddb-9b3b15f1997f")
 		)
 		(embedded_fonts no)
-		(model "MJTP1117.stp"
+		(model "${KIPRJMOD}/KiCad/9.0/3rdparty/Mjtp1117/MJTP1117.stp"
 			(offset
 				(xyz 2.499999962 -2.269999947 2.599999866)
 			)
@@ -17549,7 +17549,7 @@
 			(uuid "16d72278-c1ae-4dec-a7e7-83b10f191272")
 		)
 		(embedded_fonts no)
-		(model "MJTP1117.stp"
+		(model "${KIPRJMOD}/KiCad/9.0/3rdparty/Mjtp1117/MJTP1117.stp"
 			(offset
 				(xyz 2.499999962 -2.269999947 2.599999866)
 			)
@@ -23226,7 +23226,7 @@
 			(uuid "851ddcb4-750f-4e9c-9b11-ef8eff2b9707")
 		)
 		(embedded_fonts no)
-		(model "MJTP1117.stp"
+		(model "${KIPRJMOD}/KiCad/9.0/3rdparty/Mjtp1117/MJTP1117.stp"
 			(offset
 				(xyz 2.499999962 -2.269999947 2.599999866)
 			)
@@ -26415,7 +26415,7 @@
 			(uuid "a75166f8-1f65-4e1c-9d4d-45bc24534e70")
 		)
 		(embedded_fonts no)
-		(model "MJTP1117.stp"
+		(model "${KIPRJMOD}/KiCad/9.0/3rdparty/Mjtp1117/MJTP1117.stp"
 			(offset
 				(xyz 2.499999962 -2.269999947 2.599999866)
 			)
@@ -28969,7 +28969,7 @@
 			(uuid "cf8f2cba-6ce0-44ef-a84b-8883128ca5a5")
 		)
 		(embedded_fonts no)
-		(model "MJTP1117.stp"
+		(model "${KIPRJMOD}/KiCad/9.0/3rdparty/Mjtp1117/MJTP1117.stp"
 			(offset
 				(xyz 2.499999962 -2.269999947 2.599999866)
 			)
@@ -35392,7 +35392,7 @@
 			(uuid "5c136353-e630-4d55-a328-55566ee0ce7d")
 		)
 		(embedded_fonts no)
-		(model "MJTP1117.stp"
+		(model "${KIPRJMOD}/KiCad/9.0/3rdparty/Mjtp1117/MJTP1117.stp"
 			(offset
 				(xyz 2.499999962 -2.269999947 2.599999866)
 			)
