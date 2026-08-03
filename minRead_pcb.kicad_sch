@@ -1460,7 +1460,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(property "Footprint" "DEAN:Battery pads"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -15111,6 +15111,41 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 48.26 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e31b36e-36df-446d-8900-2a8a3dc0a41c")
+		(property "Netclass" "3V3"
+			(at 48.9585 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -171.45 -219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 284.48 266.7 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15155,7 +15190,7 @@
 			(justify right bottom)
 		)
 		(uuid "424c81c8-68e7-468b-89ae-a1d83901f622")
-		(property "Netclass" "15V"
+		(property "Netclass" "3V3"
 			(at 294.0685 302.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15251,6 +15286,41 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 58.42 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cf2d1d0-351e-47e9-b352-c9d32c59196a")
+		(property "Netclass" "3V3"
+			(at 59.1185 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -161.29 -219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 304.8 289.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15260,7 +15330,7 @@
 			(justify left bottom)
 		)
 		(uuid "a9d40049-5420-489e-842a-869c21f2c011")
-		(property "Netclass" "15V"
+		(property "Netclass" "3V3"
 			(at 305.4985 287.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15330,7 +15400,7 @@
 			(justify left bottom)
 		)
 		(uuid "e5d7fef3-4496-43a6-9214-2afa47dee60f")
-		(property "Netclass" "15V"
+		(property "Netclass" "3V3"
 			(at 347.4085 297.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15944,7 +16014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "DEAN:Battery pads"
 			(at 58.42 148.59 0)
 			(hide yes)
 			(show_name no)
