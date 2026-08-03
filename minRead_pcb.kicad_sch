@@ -4837,6 +4837,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SW_Push_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW2"
+				(at 1.2701 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at -1.2699 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -16697,6 +16862,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_1")
 		(lib_id "Switch:SW_Push")
 		(at 163.83 189.23 90)
 		(unit 1)
@@ -16730,7 +16896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mjtp1117:MJTP1117"
+		(property "Footprint" "DEAN:SKQGABE010_ALPS_Reverse"
 			(at 158.75 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -24702,7 +24868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mjtp1117:MJTP1117"
+		(property "Footprint" "DEAN:SKQGABE010_ALPS_Reverse"
 			(at 172.72 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -25535,7 +25701,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mjtp1117:MJTP1117"
+		(property "Footprint" "DEAN:SKQGABE010_ALPS_Reverse"
 			(at 185.42 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -26235,7 +26401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mjtp1117:MJTP1117"
+		(property "Footprint" "DEAN:SKQGABE010_ALPS_Reverse"
 			(at 196.85 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -28896,7 +29062,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fc9b1628-e22b-4f15-99f6-6afb70df7fc6")
 		(property "Reference" "SW6"
@@ -28919,7 +29085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243"
 			(at 107.95 347.98 0)
 			(hide yes)
 			(show_name no)
