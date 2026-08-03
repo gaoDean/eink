@@ -14401,7 +14401,7 @@
 			)
 		)
 	)
-	(global_label "LED_PWR"
+	(global_label "LED_ACTIVATE"
 		(shape input)
 		(at 463.55 123.19 0)
 		(fields_autoplaced yes)
@@ -14413,7 +14413,7 @@
 		)
 		(uuid "eba8c63e-bc03-4927-81ae-94868d088b46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 474.9413 123.19 0)
+			(at 479.1747 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14726,41 +14726,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 196.85 50.8 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28a3a7b2-67d5-4781-921f-3b2de8a22b9c")
-		(property "Netclass" "3V3"
-			(at 199.39 50.1015 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -22.86 -199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 48.26 30.48 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14831,41 +14796,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 293.37 299.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "424c81c8-68e7-468b-89ae-a1d83901f622")
-		(property "Netclass" "3V3"
-			(at 294.0685 302.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 33.02 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 66.04 288.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -14888,41 +14818,6 @@
 		)
 		(property "Component Class" ""
 			(at -153.67 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 66.04 270.51 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f7f735d-cd23-4ccb-b017-492c72f3379c")
-		(property "Netclass" "3V3"
-			(at 63.5 269.8115 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -153.67 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15028,41 +14923,6 @@
 		)
 		(property "Component Class" ""
 			(at -170.18 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 346.71 299.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5d7fef3-4496-43a6-9214-2afa47dee60f")
-		(property "Netclass" "3V3"
-			(at 347.4085 297.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 86.36 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29036,7 +28896,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc9b1628-e22b-4f15-99f6-6afb70df7fc6")
 		(property "Reference" "SW6"
