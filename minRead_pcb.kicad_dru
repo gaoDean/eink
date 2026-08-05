@@ -1,0 +1,7 @@
+(version 1)
+(rule "jlcpcb clearance"
+	(constraint edge_clearance (min 0.28mm))
+)
+(rule "chil out"
+	(constraint min_resolved_spokes 1)
+)

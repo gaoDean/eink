@@ -416,8 +416,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -16.51 15.24 0)
+			(property "Reference" "J7"
+				(at 0.635 19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -427,17 +427,16 @@
 				)
 			)
 			(property "Value" "Micro_SD_Card"
-				(at 16.51 15.24 0)
+				(at 0.635 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
 				(at 29.21 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -763,6 +762,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -10.16 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1417,7 +1434,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8614,6 +8631,12 @@
 		(uuid "65cae5c5-150e-4288-8b7a-f40ed1f59ec3")
 	)
 	(junction
+		(at 317.5 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "670f9b18-424d-4677-8f64-e26e18993221")
+	)
+	(junction
 		(at 378.46 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9181,6 +9204,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 97.79) (xy 321.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18810b57-57f4-4ffe-9f76-914ea8cc1ae0")
+	)
+	(wire
+		(pts
 			(xy 52.07 275.59) (xy 52.07 279.4)
 		)
 		(stroke
@@ -9251,7 +9284,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 102.87) (xy 317.5 113.03)
+			(xy 317.5 102.87) (xy 317.5 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9298,6 +9331,16 @@
 			(type default)
 		)
 		(uuid "20b03c13-7968-4e5f-a6e8-3a4308206833")
+	)
+	(wire
+		(pts
+			(xy 317.5 106.68) (xy 321.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e1ba60-863d-4b8c-a8e3-53c626fc9517")
 	)
 	(wire
 		(pts
@@ -11191,6 +11234,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 97.79) (xy 321.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fd9288-88d7-4504-96de-82e20651fdbd")
+	)
+	(wire
+		(pts
 			(xy 52.07 279.4) (xy 58.42 279.4)
 		)
 		(stroke
@@ -11618,6 +11671,16 @@
 			(type default)
 		)
 		(uuid "d7300e91-343e-4f17-8686-6a358d2dba19")
+	)
+	(wire
+		(pts
+			(xy 317.5 106.68) (xy 317.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81cddc0-6933-4055-8f61-5e3b480cf814")
 	)
 	(wire
 		(pts
@@ -17538,7 +17601,7 @@
 		(pin "B12"
 			(uuid "add34b9d-897c-4f60-8bd9-356e06dcd903")
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "229e5206-055b-4ee0-9618-764c991ec356")
 		)
 		(instances
@@ -19391,6 +19454,9 @@
 		)
 		(pin "9"
 			(uuid "46db1008-e239-4e7e-b756-b257f040adac")
+		)
+		(pin "SH"
+			(uuid "cf4b39b0-bc4d-4130-bd6d-3f642e1ced83")
 		)
 		(instances
 			(project "minRead_pcb"
