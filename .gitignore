@@ -8,3 +8,4 @@ minRead_pcb-backups
 # Per-user project state and regenerated caches (KiCad recommends not committing these)
 *.kicad_prl
 fp-info-cache
+gerbers
