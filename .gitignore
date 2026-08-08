@@ -1,5 +1,5 @@
 EPD_Hub_ESP32-backups
-minRead_pcb-backups
+*-backups
 /ordering script
 
 # LTspice raw simulation output (can be huge)

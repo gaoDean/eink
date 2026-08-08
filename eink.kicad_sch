@@ -8012,6 +8012,16 @@
 		)
 		(uuid "12a8a4eb-d2e1-432e-8a6c-afe4a411a3dd")
 	)
+	(text "no need for pullup floating pin since frontlight will be turned on reasonably after startup"
+		(exclude_from_sim no)
+		(at 260.35 339.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "144c49de-d705-4802-9c18-b178c5c8f1a7")
+	)
 	(text "3.7V LiPo Battery"
 		(exclude_from_sim no)
 		(at 44.45 136.398 0)
