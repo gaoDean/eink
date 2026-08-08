@@ -903,7 +903,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "minRead_pcb.kicad_pro",
+    "filename": "eink.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1020,7 +1020,7 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "minRead_pcb.emn",
+      "idf": "eink.emn",
       "netlist": "",
       "plot": "gerbers/",
       "pos_files": "placement/",
@@ -1262,8 +1262,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "minRead_pcb.kicad_sch",
-        "name": "minRead_pcb",
+        "filename": "eink.kicad_sch",
+        "name": "eink",
         "uuid": "2fbd4c8f-b784-4d80-b374-4947df99a9bf"
       }
     ],
