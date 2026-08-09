@@ -4,6 +4,8 @@ EPD_Hub_ESP32-backups
 
 # LTspice raw simulation output (can be huge)
 *.raw
+*.log
+*.net
 
 # Per-user project state and regenerated caches (KiCad recommends not committing these)
 *.kicad_prl
